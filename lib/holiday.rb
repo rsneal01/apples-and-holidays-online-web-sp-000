@@ -69,8 +69,6 @@ def all_winter_holiday_supplies(holiday_hash)
   winter_supplies << holiday_hash[:winter][:christmas]
   winter_supplies << holiday_hash[:winter][:new_years]
   winter_supplies.join (", ")
- 
-  
 end
 
 def all_supplies_in_holidays(holiday_hash)
