@@ -104,8 +104,11 @@ def all_holidays_with_bbq(holiday_hash)
   
   holiday_hash.each do |season, day|
     day.each do |holiday, supplies|
-      if supplies.include?()
-  
+      if supplies.include?("BBQ")
+        return holiday
+      end
+    end
+  end
 end
 
 
