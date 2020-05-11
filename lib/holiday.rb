@@ -88,6 +88,8 @@ def all_supplies_in_holidays(holiday_hash)
     day.each do |holiday, supplies|
       if holiday == :new_years
         puts "  New Years: #{supplies.join(", ")}"
+      elsif holiday == :fourth_of_july
+        puts 
       else puts "  #{holiday.capitalize}: #{supplies.join(", ")}"
       end
     end
