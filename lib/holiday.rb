@@ -88,6 +88,7 @@ def all_supplies_in_holidays(holiday_hash)
     day.each do |holiday, supplies|
       if holiday == :new_years
       puts "  New Year's: #{supplies.join(", ")}"
+      end
     end
   end
 end
