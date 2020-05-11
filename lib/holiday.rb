@@ -32,6 +32,7 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
         if holiday == :christmas || holiday == :new_years
         supply_array << supply
         # binding.pry
+        end
       end
     end
   end
