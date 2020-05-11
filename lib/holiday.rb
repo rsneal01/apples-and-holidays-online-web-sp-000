@@ -90,6 +90,7 @@ def all_supplies_in_holidays(holiday_hash)
         puts "  New Years: #{supplies.join(", ")}"
       elsif holiday == :fourth_of_july
         puts "  Fourth Of July: #{supplies.join(", ")}"
+      
       else puts "  #{holiday.capitalize}: #{supplies.join(", ")}"
       end
     end
