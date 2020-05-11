@@ -81,8 +81,8 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
   
   holiday_hash.each do |season, day|
-    if season == :winter 
-      
+    if season == :winter || season == :summer
+      puts 
 
 end
 
